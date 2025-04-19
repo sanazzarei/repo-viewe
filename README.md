@@ -41,7 +41,7 @@ npm test
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/repo-viewer.git
+git clone https://github.com/sanazzarei/repo-viewe.git
 cd repo-viewer
 npm install
 npm run dev
