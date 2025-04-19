@@ -28,7 +28,18 @@ A modern React app that explores GitHub user and repository data using the GitHu
 - **Axios**
 - **React Router**
 - **Font Awesome**
+- **Jest**
 - **CSS Modules**
+
+---
+
+## 🧪 Testing
+
+- Uses **Jest** for unit testing
+- Run tests with:
+
+```bash
+npm test
 
 ---
 
