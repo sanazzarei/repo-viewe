@@ -32,20 +32,18 @@ A modern React app that explores GitHub user and repository data using the GitHu
 - **CSS Modules**
 
 ---
-
 ## 🧪 Testing
 
-- Uses **Jest** for unit testing
-- Run tests with:
-
-```bash
+- Unit tests written using **Jest**
+- To run tests:
 npm test
-
----
 
 ## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/your-username/repo-viewer.git
+cd repo-viewer
 npm install
 npm run dev
+
 
