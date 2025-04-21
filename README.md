@@ -28,11 +28,17 @@ A modern React app that explores GitHub user and repository data using the GitHu
 - **Axios**
 - **React Router**
 - **Font Awesome**
+- **Jest**
 - **CSS Modules**
 - **React Loading Skeleton**
 - **React Toastify**
 
 ---
+## 🧪 Testing
+
+- Unit tests written using **Jest**
+- To run tests:
+npm test
 
 ## 🚀 Getting Started
 
@@ -43,12 +49,10 @@ npm install
 npm run dev
 
 
-```
-
----
 
 ## 🐳 Running on Docker
 
 ```bash
 docker-compose up -d
 ```
+=======
