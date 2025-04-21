@@ -30,6 +30,8 @@ A modern React app that explores GitHub user and repository data using the GitHu
 - **Font Awesome**
 - **Jest**
 - **CSS Modules**
+- **React Loading Skeleton**
+- **React Toastify**
 
 ---
 ## 🧪 Testing
@@ -47,3 +49,10 @@ npm install
 npm run dev
 
 
+
+## 🐳 Running on Docker
+
+```bash
+docker-compose up -d
+```
+=======

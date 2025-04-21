@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  react-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-app
+    ports:
+      - "3300:5173"
+    volumes:
+      # Mount source code for hot reloading
+      - ./:/app
+      # Don't overwrite node_modules in container with local node_modules
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      # Add HOST=0.0.0.0 to make the dev server accessible outside the container
+      - HOST=0.0.0.0
