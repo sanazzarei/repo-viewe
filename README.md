@@ -29,12 +29,26 @@ A modern React app that explores GitHub user and repository data using the GitHu
 - **React Router**
 - **Font Awesome**
 - **CSS Modules**
+- **React Loading Skeleton**
+- **React Toastify**
 
 ---
 
 ## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/sanazzarei/repo-viewe.git
+cd repo-viewer
 npm install
 npm run dev
 
+
+```
+
+---
+
+## 🐳 Running on Docker
+
+```bash
+docker-compose up -d
+```
